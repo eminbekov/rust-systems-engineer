@@ -1,0 +1,20 @@
+# Rust build output, in every folder
+target/
+
+# Editors and macOS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Course maintenance tools and backups (kept locally, not published)
+.course/
+.course-check/
+archive/
